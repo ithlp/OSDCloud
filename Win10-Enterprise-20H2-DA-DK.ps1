@@ -26,7 +26,7 @@ Import-Module OSD -Force
 
 Write-Host -ForegroundColor Green "Start OSDCloud"
 
-Start-OSDCloud -OSLanguage da-dk -OSBuild 1909 -OSEdition Enterprise -ZTI
+Start-OSDCloud -OSLanguage da-dk -OSBuild 2004 -OSEdition Enterprise -ZTI
 
 #Restart from WinPE
 
