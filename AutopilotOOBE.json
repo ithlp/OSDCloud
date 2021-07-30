@@ -1,0 +1,17 @@
+{
+    "Assign":  {
+                   "IsPresent":  true
+               },
+    "AssignedUserExample":  "someone@example.com",
+    "AssignedComputerName":  "9J1SVT2",
+    "AssignedComputerNameExample":  "Azure AD Join Only",
+    "GroupTag":  "Twitter",
+    "Hidden":  [
+                   "AddToGroup",
+                   "AssignedUser"
+               ],
+    "PostAction":  "Restart",
+    "Run":  "WindowsSettings",
+    "Docs":  "https://twitter.com/SeguraOSD",
+    "Title":  "SeguraOSD Autopilot Registration"
+}
