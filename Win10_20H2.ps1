@@ -57,8 +57,8 @@ $AutopilotOOBEJson = @'
     "PostAction":  "Quit",
     "Run":  "NetworkingWireless",
     "Docs":  "https://autopilotoobe.osdeploy.com/",
-    "Title":  "OSDeploy Autopilot Registration"
+    "Title":  "ITHLP OSDeploy Autopilot Registration"
 }
 '@
-$AutopilotOOBEJson | Out-File -FilePath "C:\ProgramData\OSDeploy\OSDeploy.AutopilotOOBE.json" -Encoding ascii -Force
-Start-AutopilotOOBE
+#$AutopilotOOBEJson | Out-File -FilePath "C:\ProgramData\OSDeploy\OSDeploy.AutopilotOOBE.json" -Encoding ascii -Force
+Start-AutopilotOOBE @Params
