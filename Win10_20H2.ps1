@@ -34,7 +34,7 @@ Write-Host -ForegroundColor Green "Importing OSD PowerShell Module"
 
 Import-Module OSD -Force
 
-Start-OSDCloud @Params
+#Start-OSDCloud @Params
 
 #=======================================================================
 #   PostOS: AutopilotOOBE Staging
@@ -61,3 +61,4 @@ $AutopilotOOBEJson = @'
 }
 '@
 $AutopilotOOBEJson | Out-File -FilePath "C:\ProgramData\OSDeploy\OSDeploy.AutopilotOOBE.json" -Encoding ascii -Force
+Start-AutopilotOOBE
