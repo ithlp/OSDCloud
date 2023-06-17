@@ -25,8 +25,8 @@ Import-Module OSD -Force
 #Start OSDCloud ZTI the RIGHT way
 
 Write-Host -ForegroundColor Green "Start OSDCloud"
-
-Start-OSDCloud -OSLanguage da-dk -OSBuild 21H1 -OSEdition Enterprise -ZTI
+Start-OSDCloudGUI
+#Start-OSDCloud -OSLanguage da-dk -OSBuild 21H1 -OSEdition Enterprise -ZTI
 
 #Restart from WinPE
 
